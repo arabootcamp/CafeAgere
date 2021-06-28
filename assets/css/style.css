@@ -316,8 +316,9 @@ p {
 }
 .about-us__img--position-l1 {
   position: absolute;
+  z-index: 5;
   bottom: 10%;
-  left: -10px;
+  left: -8%;
 }
 @media (min-width: 991.98px) {
   .about-us__img--position-l1 {

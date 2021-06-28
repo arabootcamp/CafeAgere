@@ -37,8 +37,9 @@
 
     &--position-l1 {
       position: absolute;
+      z-index: 5;
       bottom: 10%;
-      left: -10px;
+      left: -8%;
 
       @include response-to('device-large') {
         width: 88%;
