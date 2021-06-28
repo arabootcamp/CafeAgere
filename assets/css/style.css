@@ -28,9 +28,23 @@ h1 {
   font-size: 70px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+.navbar__position-o {
+  font-size: 18px;
+}
+
 p {
+  font-family: "Roboto", sans-serif;
   font-size: medium;
   color: #6c757d;
+}
+
+.button {
+  font-family: "PT Mono", monospace;
+  font-size: 16px;
 }
 
 .box {
@@ -88,6 +102,21 @@ p {
   grid-area: rectangle;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar__group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .indicators {
   display: flex;
   justify-content: space-around;
@@ -98,6 +127,33 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  padding: 15px 0;
+}
+.navbar__title {
+  position: relative;
+}
+.navbar__position-o {
+  position: absolute;
+  top: -8px;
+  left: -5px;
+}
+.navbar__li {
+  color: #6c757d;
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+.navbar__li:hover {
+  color: #E4572E;
+  border-bottom: 2px solid #E4572E;
 }
 
 .indicators {
@@ -138,7 +194,7 @@ p {
 
 .header__right {
   padding-top: 15%;
-  padding-left: 100px;
+  padding-left: 20%;
   position: relative;
 }
 .header__p {
@@ -147,6 +203,9 @@ p {
 
 .about-us__text {
   padding: 10%;
+}
+.about-us__p {
+  padding-top: 20px;
 }
 .about-us__right {
   position: relative;
@@ -175,6 +234,19 @@ p {
   top: 0;
   left: -35px;
   z-index: 200;
+}
+
+.button {
+  background-color: #4CA866;
+  color: white;
+  border: none;
+  padding: 4px;
+  margin-left: 20px;
+}
+.button:hover {
+  color: #6c757d;
+  background-color: white;
+  border: 2px solid #6c757d;
 }
 
 /*# sourceMappingURL=style.css.map */

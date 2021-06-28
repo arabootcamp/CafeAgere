@@ -1,8 +1,12 @@
 .about-us {
 
-&__text{
-  padding: 10%;
-}
+  &__text {
+    padding: 10%;
+  }
+
+  &__p{
+    padding-top: 20px;
+  }
 
   &__right {
     position: relative;
@@ -15,8 +19,8 @@
       width: 420px;
       height: 220px;
       position: absolute;
-      bottom:0;
-      left:-25px;
+      bottom: 0;
+      left: -25px;
       z-index: 25;
     }
 

@@ -6,9 +6,24 @@ h1 {
   font-size: $xx-large;
 }
 
+h2{
+  font-size: $x-large;
+}
+
+.navbar__position-o {
+  font-size: $large;
+}
+
+
 p {
+  font-family:$roboto;
   font-size: medium;
   color: $gray;
+}
+
+.button{
+  font-family: $pt-mono;
+  font-size:$medium;
 }
 
 .box {
