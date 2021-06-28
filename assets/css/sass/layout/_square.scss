@@ -1,0 +1,42 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: $light-blue;
+  color: white;
+
+  &--orange {
+    background-color: $orange;
+    position: absolute;
+    z-index: 30;
+    bottom: -370px;
+    right: 20px;
+
+    @include response-to('device-small') {
+      bottom: -220px;
+      right: 20px;
+    }
+
+    @include response-to('device-large') {
+      left: -15px;
+      bottom: 15px;
+    }
+  }
+
+  &--yellow {
+    background-color: $yellow;
+    position: absolute;
+    z-index: 20;
+    bottom: -350px;
+    right: 0;
+
+    @include response-to('device-small') {
+      bottom: -200px;
+      right: 0;
+    }
+
+    @include response-to('device-large') {
+      left: 0;
+      bottom: 0;
+    }
+  }
+}

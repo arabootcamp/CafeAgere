@@ -1,11 +1,30 @@
 .about-us {
 
   &__text {
-    padding: 10%;
+    text-align: center;
+    padding: 50px 5%;
+
+    @include response-to('device-large') {
+      padding: 50px;
+      text-align: start;
+    }
   }
 
-  &__p{
+  &__p {
     padding-top: 20px;
+  }
+
+  &__containt-img {
+    width: 80%;
+    margin-left: 20%;
+    background-color: $light-blue;
+    position: relative;
+
+    @include response-to('device-large') {
+      width: 100%;
+      height: 250px;
+      margin-left: 0;
+    }
   }
 
   &__right {
@@ -13,31 +32,46 @@
   }
 
   &__img {
-    position: absolute;
+    width: 100%;
+    height: 220px;
 
     &--position-l1 {
-      width: 420px;
-      height: 220px;
       position: absolute;
-      bottom: 0;
-      left: -25px;
-      z-index: 25;
+      bottom: 10%;
+      left: -10px;
+
+      @include response-to('device-large') {
+        width: 88%;
+        bottom: -5%;
+        left: -5%;
+      }
     }
 
     &--position-r1 {
-      height: 300px;
-      top: 0;
-      left: 0;
-      z-index: 100;
+      width: 100%;
+      height: auto;
+
+      @include response-to('device-large') {
+        height: 300px;
+      }
     }
 
     &--position-r2 {
-      width: 70px;
-      height: 120px;
+      width: 100px;
+      height: 50px;
       position: absolute;
-      top: 0;
-      left: -35px;
-      z-index: 200;
+      z-index: 50;
+      top: -15px;
+      left: calc(100vw/2 - 50px);
+
+      @include response-to('device-large') {
+        width: 70px;
+        height: 120px;
+        top: 0;
+        left: -35px;
+      }
     }
   }
+
+
 }
