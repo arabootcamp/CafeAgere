@@ -1,0 +1,46 @@
+//Grid header
+.header {
+  display: grid;
+grid:
+"header__left header__right" 430px/
+70% 30%;
+}
+
+.header__left{
+  grid-area: header__left;
+}
+
+.header__right{
+  grid-area: header__right;
+}
+
+//Grid about-us
+.about-us {
+  display: grid;
+  grid:
+    "about-us__left about-us__right" 430px/ 70% 30%;
+}
+
+.about-us__left {
+  grid-area: about-us__left;
+}
+
+.about-us__right {
+  grid-area: about-us__right;
+}
+
+//Grid about-us__left
+.about-us__left{
+  display:grid;
+  grid:
+  "about-us__text rectangle" auto/
+  auto 470px;
+}
+
+.about-us__text {
+  grid-area: about-us__text;
+}
+
+.box--rectangle{
+  grid-area: rectangle;
+}

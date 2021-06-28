@@ -1,0 +1,180 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+body {
+  font-family: "PT Mono", monospace;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+p {
+  font-size: medium;
+  color: #6c757d;
+}
+
+.box {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.indicators__title {
+  font-size: 30px;
+  color: black;
+}
+
+.indicators__p {
+  font-size: small;
+  color: #6c757d;
+}
+
+.header {
+  display: grid;
+  grid: "header__left header__right" 430px/70% 30%;
+}
+
+.header__left {
+  grid-area: header__left;
+}
+
+.header__right {
+  grid-area: header__right;
+}
+
+.about-us {
+  display: grid;
+  grid: "about-us__left about-us__right" 430px/70% 30%;
+}
+
+.about-us__left {
+  grid-area: about-us__left;
+}
+
+.about-us__right {
+  grid-area: about-us__right;
+}
+
+.about-us__left {
+  display: grid;
+  grid: "about-us__text rectangle" auto/auto 470px;
+}
+
+.about-us__text {
+  grid-area: about-us__text;
+}
+
+.box--rectangle {
+  grid-area: rectangle;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicators {
+  width: 470px;
+  height: 100px;
+  background-color: #EEEDED;
+  position: absolute;
+  bottom: 0;
+  left: -470px;
+  z-index: 10;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3C91E6;
+  color: white;
+}
+.box--orange {
+  background-color: #E4572E;
+  position: absolute;
+  z-index: 30;
+  left: -15px;
+  bottom: 15px;
+}
+.box--yellow {
+  background-color: #EACB31;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  bottom: 0;
+}
+.box--rectangle {
+  width: 470px;
+  height: 250px;
+  position: relative;
+}
+
+.header__right {
+  padding-top: 15%;
+  padding-left: 100px;
+  position: relative;
+}
+.header__p {
+  padding-top: 10px;
+}
+
+.about-us__text {
+  padding: 10%;
+}
+.about-us__right {
+  position: relative;
+}
+.about-us__img {
+  position: absolute;
+}
+.about-us__img--position-l1 {
+  width: 420px;
+  height: 220px;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  z-index: 25;
+}
+.about-us__img--position-r1 {
+  height: 300px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.about-us__img--position-r2 {
+  width: 70px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: -35px;
+  z-index: 200;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+body {
+  font-family: $pt-mono;
+}
+
+h1 {
+  font-size: $xx-large;
+}
+
+p {
+  font-size: medium;
+  color: $gray;
+}
+
+.box {
+  font-size: $x-large;
+  font-weight: bold;
+  color: white;
+}
+
+.indicators__title {
+  font-size: $x-large;
+  color: black;
+}
+
+.indicators__p {
+  font-size: small;
+  color: $gray;
+}
