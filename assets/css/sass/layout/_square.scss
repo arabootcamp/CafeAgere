@@ -16,7 +16,7 @@
       right: 20px;
     }
 
-    @include response-to('device-large') {
+    @include response-to('device-xlarge') {
       left: -15px;
       bottom: 15px;
     }
@@ -34,7 +34,7 @@
       right: 0;
     }
 
-    @include response-to('device-large') {
+    @include response-to('device-xlarge') {
       left: 0;
       bottom: 0;
     }

@@ -72,7 +72,7 @@ p {
   display: grid;
   grid: "header__right" 300px "header__left" 430px/100%;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .header {
     grid: "header__left header__right" 430px/70% 30%;
   }
@@ -90,7 +90,7 @@ p {
   display: grid;
   grid: "about-us__left" auto "about-us__right" auto/100%;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .about-us {
     grid: "about-us__left about-us__right" auto/70% 30%;
   }
@@ -108,7 +108,7 @@ p {
   display: grid;
   grid: "about-us__text" auto "about-us__containt-img" 300px/100%;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .about-us__left {
     grid: "about-us__text about-us__containt-img" auto/auto 470px;
   }
@@ -211,7 +211,7 @@ p {
     right: 0;
   }
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .indicators {
     bottom: 0;
     left: -470px;
@@ -237,7 +237,7 @@ p {
     right: 20px;
   }
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .square--orange {
     left: -15px;
     bottom: 15px;
@@ -256,7 +256,7 @@ p {
     right: 0;
   }
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .square--yellow {
     left: 0;
     bottom: 0;
@@ -269,7 +269,7 @@ p {
   padding: 45px 0;
   border-top: 1px solid #6c757d;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .header__right {
     text-align: start;
     border-top: none;
@@ -285,7 +285,7 @@ p {
   text-align: center;
   padding: 50px 5%;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .about-us__text {
     padding: 50px;
     text-align: start;
@@ -300,7 +300,7 @@ p {
   background-color: #3C91E6;
   position: relative;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .about-us__containt-img {
     width: 100%;
     height: 250px;
@@ -320,7 +320,7 @@ p {
   bottom: 10%;
   left: -8%;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .about-us__img--position-l1 {
     width: 88%;
     bottom: -5%;
@@ -331,7 +331,7 @@ p {
   width: 100%;
   height: auto;
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .about-us__img--position-r1 {
     height: 300px;
   }
@@ -344,7 +344,7 @@ p {
   top: -15px;
   left: calc(100vw/2 - 50px);
 }
-@media (min-width: 991.98px) {
+@media (min-width: 1199.98px) {
   .about-us__img--position-r2 {
     width: 70px;
     height: 120px;

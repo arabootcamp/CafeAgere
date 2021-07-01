@@ -5,7 +5,7 @@
   grid:
     "header__right"300px "header__left"430px/ 100%;
 
-  @include response-to('device-large') {
+  @include response-to('device-xlarge') {
     grid:
       "header__left header__right"430px/ 70% 30%;
   }
@@ -26,7 +26,7 @@
   grid:
     "about-us__left"auto "about-us__right"auto/ 100%;
 
-  @include response-to ('device-large') {
+  @include response-to ('device-xlarge') {
     grid:
       "about-us__left about-us__right"auto/ 70% 30%;
   }
@@ -46,7 +46,7 @@
 
   grid: "about-us__text"auto "about-us__containt-img"300px/ 100%;
 
-  @include response-to ('device-large') {
+  @include response-to ('device-xlarge') {
     grid:
       "about-us__text about-us__containt-img"auto/ auto 470px;
   }
