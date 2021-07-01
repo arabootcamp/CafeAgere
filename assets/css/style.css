@@ -92,7 +92,7 @@ p {
 }
 @media (min-width: 1199.98px) {
   .about-us {
-    grid: "about-us__left about-us__right" auto/70% 30%;
+    grid: "about-us__left about-us__right" calc(100vh - 430px - 64px)/70% 30%;
   }
 }
 
@@ -333,7 +333,7 @@ p {
 }
 @media (min-width: 1199.98px) {
   .about-us__img--position-r1 {
-    height: 300px;
+    height: 100%;
   }
 }
 .about-us__img--position-r2 {
